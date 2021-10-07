@@ -1,0 +1,11 @@
+stage {
+      font-family: Roboto, Ubuntu, Cantarell, Sans-Serif;
+      font-weight: bold;
+      font-size: 19pt;
+      color: #fafafa;
+      }
+.calendar-day-base {
+    font-family: Roboto, Ubuntu, Cantarell, Sans-Serif;
+    font-size: 16pt;
+     }
+
