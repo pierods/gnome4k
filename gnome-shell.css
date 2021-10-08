@@ -8,4 +8,8 @@ stage {
     font-family: Roboto, Ubuntu, Cantarell, Sans-Serif;
     font-size: 16pt;
      }
+.nm-dialog-item{
+    font-weight: normal;
+    font-size: 19pt;
+     }
 
