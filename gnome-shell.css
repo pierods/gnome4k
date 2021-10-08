@@ -12,4 +12,6 @@ stage {
     font-weight: normal;
     font-size: 19pt;
      }
-
+.weather-button .weather-forecast-time {
+    font-size: 16pt;
+}
