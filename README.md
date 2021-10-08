@@ -9,11 +9,10 @@ The file gnome-shell.css makes the following elements bigger:
 
 - top bar font size
 - mini calendar days font size
-- wiifi networks font size
+- wifi networks font size
 
 To install it:
 - create the gnome-shell directory:
-
     ``` mkdir -p ~/.themes/<desired theme name>/gnome-shell ```
 - copy gnome-shell.css in the gnome-shell directory
 - go to the extension management app
@@ -57,5 +56,15 @@ Enter a new number eg: 1.25 or 1.5 or 2.0 or 2.2
 click OK 
 
 ## Goland
+- Select Help/Edit Custom VM options
+- insert this line:
+  ```-Dsun.java2d.uiScale=2```
+- restart the IDE
+- Select File/Setting/Appearance and Behavior/Appearance/Use Custom Font and enter a value around 15
+
+
+## Tradingview desktop app
+- Type <ctrl>+ to increase the view size. 
+
 
 
