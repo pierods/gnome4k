@@ -28,7 +28,7 @@ In search type: pixels
 
 Look for this line: layout.css.devPixelsPerPx
 
-Double left click on that line to open the 'Enter string Value' box so you can edit the Value.
+Double left-click on that line to open the 'Enter string Value' box so you can edit the Value.
 
 The default value will be -1.0
 
@@ -47,7 +47,7 @@ In search type: pixels
 
 Look for this line: layout.css.devPixelsPerPx
 
-Double left click on that line to open the 'Enter string Value' box so you can edit the Value. 
+Double left-click on that line to open the 'Enter string Value' box, so you can edit the Value. 
 
 The default value will be -1.0
 
@@ -64,7 +64,7 @@ click OK
 
 
 ## Tradingview desktop app
-- Type <ctrl>+ to increase the view size. 
+- Type \<ctrl>+ to increase the view size. 
 
 
 
