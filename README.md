@@ -2,6 +2,14 @@
 
 gnome4k is a repository containing workarounds necessary to run gnome on 4k monitors without scaling.
 
+## Gnome UI Fonts
+Install gnome-tweaks, open it, go to "Fonts" and increase accordingly (probably something around 18)
+
+## Pointer Size
+Open Gnome settings/Accessibility/Cursor Size and change to desired size
+
+## Pointer Acceleration
+Open Gnome settings/Mouse & Touchpad/Mouse speed and change to desired acceleration
 
 ## Gnome Shell
 
@@ -66,5 +74,6 @@ click OK
 ## Tradingview desktop app
 - Type \<ctrl>+ to increase the view size. 
 
-
+## Slack desktop app
+Click your workspace name in the top left. Choose Preferences. Click Accessibility. Select your zoom level.
 
