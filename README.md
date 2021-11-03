@@ -11,8 +11,10 @@ Open Gnome settings/Accessibility/Cursor Size and change to desired size
 ## Pointer Acceleration
 Open Gnome settings/Mouse & Touchpad/Mouse speed and change to desired acceleration
 
-## Gnome Shell
+## Gnome desktop
+(For the Desktop Icons NG extensions) Right-click on the desktop, select the desired icon size
 
+## Gnome Shell
 The file gnome-shell.css makes the following elements bigger:
 
 - top bar font size
@@ -29,7 +31,6 @@ To install it:
 - choose the newly created theme
 
 ## Firefox
-
 In the address bar, type "about:config"
 
 In search type: pixels
@@ -44,7 +45,6 @@ Enter a new number eg: 1.25 or 1.5 or 2.0 or 2.2
 
 
 ## Thunderbird
-
 Menu app icon > Options > General
 
 Scroll down to the very bottom
