@@ -77,3 +77,7 @@ click OK
 ## Slack desktop app
 Click your workspace name in the top left. Choose Preferences. Click Accessibility. Select your zoom level.
 
+## Zoom desktop app
+(if installed through flatpak) Install flatseal, open it, look for zoom, enter this under "Variables":
+```QT_SCALE_FACTOR=1.5```
+
