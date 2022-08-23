@@ -1,9 +1,10 @@
 # gnome4k
+_Updated for fedora 36_
 
 gnome4k is a repository containing workarounds necessary to run gnome on 4k monitors without scaling.
 
 ## Gnome UI Fonts
-Install gnome-tweaks, open it, go to "Fonts" and increase accordingly (probably something around 18)
+Install gnome-tweaks, open it, go to "Fonts" and increase accordingly (probably something around 22)
 
 ## Pointer Size
 Open Gnome settings/Accessibility/Cursor Size and change to desired size
@@ -23,11 +24,11 @@ The file gnome-shell.css makes the following elements bigger:
 
 To install it:
 - create the gnome-shell directory:
-    ``` mkdir -p ~/.themes/<desired theme name>/gnome-shell ```
+    ``` mkdir -p ~/local/share/themes/<desired theme name>/gnome-shell ```
 - copy gnome-shell.css in the gnome-shell directory
-- go to the extension management app
-- enable "User Themes"
-- click the setting cog of "User Themes"
+- install the gnome add-on "User Themes" from the gnome add-ons web page
+- open the Tweaks app
+- go to Appearance/Themes/Shell
 - choose the newly created theme
 
 ## Firefox
@@ -81,3 +82,9 @@ Click your workspace name in the top left. Choose Preferences. Click Accessibili
 (if installed through flatpak) Install flatseal, open it, look for zoom, enter this under "Variables":
 ```QT_SCALE_FACTOR=1.5```
 
+## Improve legibility of ls on low luminosity screens and list directories first:
+Edit .bashrc and add:
+```
+alias ll='ls -l -h --group-directories-first'
+LS_COLORS=$LS_COLORS:'di=1;31:' ; export LS_COLORS
+```
